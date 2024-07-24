@@ -6,21 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sanity": "sanity"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
-    "@sanity/client": "^3.2.0",
-    "@sanity/image-url": "^1.0.1",
+    "@sanity/client": "^6.15.7",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.36.2",
     "@stripe/stripe-js": "^1.25.0",
     "canvas-confetti": "^1.5.1",
     "next": "^14.1.4",
+    "next-sanity": "^8.5.0",
     "next-sanity-image": "^6.1.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.3.1",
-    "stripe": "^8.209.0"
+    "sanity": "^3.36.2",
+    "stripe": "^8.209.0",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
